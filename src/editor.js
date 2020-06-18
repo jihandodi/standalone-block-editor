@@ -23,11 +23,11 @@ function Editor( { settings } ) {
 			<DropZoneProvider>
 				<EditorSkeleton
 					header={ <Header /> }
-					sidebar={<Sidebar />}
+					sidebar={ <Sidebar /> }
 					content={
 						<>
 							<Notices />
-							<BlockEditor settings={settings} />
+							<BlockEditor settings={ settings } />
 						</>
 					}
 				/>
